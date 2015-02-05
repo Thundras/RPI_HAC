@@ -1,4 +1,5 @@
 <?php 
+chdir($url->path);
 $output = shell_exec('git clean -df 2>&1');
 echo "<pre>$output</pre>";
 $output = shell_exec('git reset --hard 2>&1');
