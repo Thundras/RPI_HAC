@@ -1,4 +1,4 @@
 <?php
-  <html></html>
+  echo "ABC";
   //blub
 ?>
