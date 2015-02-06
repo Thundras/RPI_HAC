@@ -23,7 +23,7 @@
     // If the javascript and meta redirect did not work, 
     // the user can still click this link
     print 'You should be redirected to this URL:<br />';
-    print "<a href="$url">$url</a><br /><br />";
+    print "<a href=".$url.">".$url."</a><br /><br />";
  
     print 'If you are not, please click on the link above.<br />';    
  
