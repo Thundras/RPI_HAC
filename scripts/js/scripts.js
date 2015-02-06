@@ -27,8 +27,8 @@ $(document).ready(
 		}, 5000);
 		*/
 		$("#Update").load("scripts/php/update.php");
-		var UpdateID = setInterval(function(){
-			$("#DT").load('scripts/php/update.php?' + 1*new Date());
+		var updateID = setInterval(function(){
+			$("#Update").load('scripts/php/update.php?' + 1*new Date());
 		}, 30000);
 	}
 );
