@@ -7,7 +7,7 @@
   echo "\t<body>\n";
   echo "\t\t<div id='Update' style='text-align:center;' width=100%></div>";
   echo "\t\t<!--<div align=center style='background-color:#FFCCCC' width=100%>New Update</div>-->\n";
-  echo "\t\t<div>ABCDEFGH</div>\n";
+  echo "\t\t<div>ABCDEFGHIJ</div>\n";
   echo "\t</body>\n";
   echo "</html>\n";
 ?>
