@@ -6,7 +6,7 @@ echo `git reset --hard > nul 2>nul &`;
 echo `git pull origin master > nul 2>nul &`;
 */
 
-$myfile = fopen("/scripts/php/update.php", "w") or die("Unable to open file!");
+$myfile = fopen("update.php", "w") or die("Unable to open file!");
 $txt = "<?php\n";
 fwrite($myfile, $txt);
 $txt = "echo \"<div align=center style='background-color:#FFCCCC' width=100%>New Update</div>\n\";";
