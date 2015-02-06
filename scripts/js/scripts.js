@@ -26,5 +26,9 @@ $(document).ready(
 			$("#CC").load('scripts/ping.php?host=ChromeNewCastle&count=5&' + 1*new Date());
 		}, 5000);
 		*/
+		$("#Update").load("scripts/php/update.php");
+		var UpdateID = setInterval(function(){
+			$("#DT").load('scripts/php/update.php?' + 1*new Date());
+		}, 30000);
 	}
 );
