@@ -5,7 +5,8 @@
   echo "\t\t<script src='scripts/js/scripts.js' type='text/javascript'></script>\n";
   echo "\t</head>\n";
   echo "\t<body>\n";
-  echo "\tABCDEFGH\n";
+  echo "\t\t<div align=center backcolor=#7FFFFF>New Update</div>\n";
+  echo "\t\t<div>ABCDEFGH</div>\n";
   echo "\t</body>\n";
   echo "</html>\n";
 ?>
